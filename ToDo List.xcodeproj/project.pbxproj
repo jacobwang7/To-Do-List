@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2303129D25F15AAE006569CC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303129C25F15AAE006569CC /* ListTableViewCell.swift */; };
+		230312AD25F3FE91006569CC /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230312AC25F3FE91006569CC /* ToDoItems.swift */; };
+		230312C425F40F47006569CC /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230312C325F40F47006569CC /* LocalNotificationManager.swift */; };
+		230312CF25F43149006569CC /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230312CE25F43149006569CC /* UIViewController+alert.swift */; };
 		23316E7825E746A90077A066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23316E7725E746A90077A066 /* AppDelegate.swift */; };
 		23316E7A25E746A90077A066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23316E7925E746A90077A066 /* SceneDelegate.swift */; };
 		23316E7C25E746A90077A066 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23316E7B25E746A90077A066 /* ToDoListViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2303129C25F15AAE006569CC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		230312AC25F3FE91006569CC /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		230312C325F40F47006569CC /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		230312CE25F43149006569CC /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		23316E7425E746A90077A066 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23316E7725E746A90077A066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23316E7925E746A90077A066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,9 +113,13 @@
 			children = (
 				23316E7725E746A90077A066 /* AppDelegate.swift */,
 				23316E7925E746A90077A066 /* SceneDelegate.swift */,
+				230312C325F40F47006569CC /* LocalNotificationManager.swift */,
+				230312CE25F43149006569CC /* UIViewController+alert.swift */,
 				23689E5225EB59DB009B9A21 /* ToDoItem.swift */,
+				230312AC25F3FE91006569CC /* ToDoItems.swift */,
 				23316E7B25E746A90077A066 /* ToDoListViewController.swift */,
 				23316EEC25E75BFC0077A066 /* ToDoDetailTableViewController.swift */,
+				2303129C25F15AAE006569CC /* ListTableViewCell.swift */,
 				23316E7D25E746A90077A066 /* Main.storyboard */,
 				23316E8025E746A90077A066 /* Assets.xcassets */,
 				23316E8225E746A90077A066 /* LaunchScreen.storyboard */,
@@ -265,10 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				23316E7C25E746A90077A066 /* ToDoListViewController.swift in Sources */,
+				230312AD25F3FE91006569CC /* ToDoItems.swift in Sources */,
 				23316E7825E746A90077A066 /* AppDelegate.swift in Sources */,
+				230312CF25F43149006569CC /* UIViewController+alert.swift in Sources */,
 				23689E5325EB59DB009B9A21 /* ToDoItem.swift in Sources */,
 				23316EED25E75BFC0077A066 /* ToDoDetailTableViewController.swift in Sources */,
 				23316E7A25E746A90077A066 /* SceneDelegate.swift in Sources */,
+				230312C425F40F47006569CC /* LocalNotificationManager.swift in Sources */,
+				2303129D25F15AAE006569CC /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
